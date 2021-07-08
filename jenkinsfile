@@ -1,21 +1,21 @@
 pipeline {
     agent any
     stages{
-        stage ["build"] {
+        stage ['build'] {
             steps {
-            echo "hi im building"
+            echo 'hi im building'
             }
             
         }
-        stage ["test"] {
+        stage ['test'] {
             stepe {
-            echo "im testing"     
+            echo 'im testing'     
             }
             
         }
-        stage ["deploy"] {
+        stage ['deploy'] {
             steps {
-             echo "im deployinf for the first time" 
+             echo 'im deployinf for the first time'
             }
             
         }  
